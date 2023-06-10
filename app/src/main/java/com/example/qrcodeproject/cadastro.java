@@ -14,8 +14,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class cadastro extends AppCompatActivity {
     private Button cadastra;
-    private EditText ratext;
-    private EditText senhatext;
+    private TextView ratext;
+    private TextView senhatext;
 
     private DatabaseReference reference= FirebaseDatabase.getInstance().getReference();
     @Override
@@ -23,8 +23,8 @@ public class cadastro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
         cadastra= findViewById(R.id.button);
-        ratext= findViewById(R.id.textView);
-        senhatext= findViewById(R.id.textView2);
+        ratext= findViewById(R.id.editTextTextRA);
+        senhatext= findViewById(R.id.editTextTextpassword);
         DatabaseReference cadastros=reference.child("Cadastro");
         cadastra.setOnClickListener(new View.OnClickListener() {
             @Override

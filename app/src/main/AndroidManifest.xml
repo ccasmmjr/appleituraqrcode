@@ -4,9 +4,10 @@
 
     <uses-feature
         android:name="android.hardware.camera"
-        android:required="false"/>
-        <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+        android:required="false" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Qrcodeproject"
         tools:targetApi="31">
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
             android:name=".qrcode"
             android:exported="false" />
