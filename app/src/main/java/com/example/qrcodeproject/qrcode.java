@@ -58,7 +58,7 @@ public class qrcode extends AppCompatActivity {
             if(content!=null){
                 String [] resultado=content.split(",");
                 recuperaRetrofit(resultado[0],resultado[1]);
-                //visao.setText(intentResult.getContents());
+
             }
         }
     }
