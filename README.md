@@ -22,3 +22,32 @@ Cairo.
 
 ![Map_!](https://github.com/ccasmmjr/appleituraqrcode/blob/development/mapaqrcode.png)
 
+
+# Tecnologias usadas
+1-Androide Studio
+2-Firebase
+3-forecast Api
+
+## linguagem 
+1- java
+2- xml
+
+# Como executar o projeto
+Pré-requisito tenha o android studio instalado na maquina.
+
+1- clone o repositorio.
+git clone https://github.com/ccasmmjr/appleituraqrcode.git
+
+2- abra a aplicação no adroid studio.
+
+3- ative o modo desenvolvedor do seu dipositivo movel e habilite ele para ter depuração.
+
+4- conecte o dipositvo ao android studio e comece a depuração.
+
+5- Use o app que acabou de ser instalado no seu dipositivo.
+
+
+# Autores 
+Carlos Alberto Silva de Magalhães Júnior,
+Eduardo de Araujo Rodrigues,
+Gabriel de Brito Leal dos Santos
