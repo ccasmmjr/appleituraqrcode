@@ -79,12 +79,17 @@ public class qrcode extends AppCompatActivity {
 
                     Parametros dados = response.body();
                     visao.setText(
-                            "latitude: " + dados.getLatitude()
-                                    + "\n longitude: " + dados.getlongitude()
-                                    + "\n elevation: " + dados.getelevation()
-                                    + "\n timezone: " + dados.gettimezone()
-                                    + "\n TemperatureMax: " + dados.getTemperatureMax()
-                                    + "\n TemperatureMin: " + dados.getTemperatureMin()
+                            "Latitude: " + dados.getLatitude()
+                                    + "\n------------------"
+                                    + "\n Longitude: " + dados.getlongitude()
+                                    + "\n------------------"
+                                    + "\n Elevação: " + dados.getelevation()
+                                    + "\n------------------"
+                                    + "\n Time Zone: " + dados.gettimezone()
+                                    + "\n------------------"
+                                    + "\n Temperatura Max: " + dados.getTemperatureMax()
+                                    + "\n------------------"
+                                    + "\n Temperatura Min: " + dados.getTemperatureMin()
 
                     );
 
