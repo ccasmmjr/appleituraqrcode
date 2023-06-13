@@ -2,8 +2,8 @@
 
 # Sobre o Projeto
 
-QrCodeTemp é uma aplicação app criada na materia Dispositivos Moveis durante a ultima
-unidade.
+QrCodeTemp é uma aplicação criada na materia Dispositivos Moveis durante a ultima
+unidade da materia.
 
 A aplicação consiste na criação de um sistema de cadastro e login usando o banco de dados firebase 
 além do consumo da api forecast que ira retorna dados da temperatura maxima e minima em Celsius de uma deter-
