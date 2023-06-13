@@ -2,7 +2,7 @@
 
 # Sobre o Projeto
 
-QrCodeTemp é uma aplicação app criada na materia Lp3(linguagem da programação 3) durante a ultima
+QrCodeTemp é uma aplicação app criada na materia Dipositivos Moveis durante a ultima
 unidade.
 
 A aplicação consiste na criação de um sistema de cadastro e login usando o banco de dados firebase 
