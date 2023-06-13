@@ -20,8 +20,8 @@ import com.google.firebase.database.ValueEventListener;
 public class MainActivity extends AppCompatActivity {
     private Button cadastra1;
     private Button login;
-    private EditText ratext1;
-    private EditText senhatext1;
+    private TextView ratext1;
+    private TextView senhatext1;
 
     private DatabaseReference reference= FirebaseDatabase.getInstance().getReference();
 
@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         login= findViewById(R.id.button2);
         cadastra1= findViewById(R.id.button3);
-        ratext1= findViewById(R.id.textView3);
-        senhatext1= findViewById(R.id.textView4);
+        ratext1= findViewById(R.id.editTextTextRA);
+        senhatext1= findViewById(R.id.editTextTextpassword);
         DatabaseReference cadastros=reference.child("Cadastro");
 
         cadastra1.setOnClickListener(new View.OnClickListener() {
